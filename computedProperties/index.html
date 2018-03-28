@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>VueJS - Computed Properties</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+  <div id="v-computed">
+    <h1> Computed Properties Example</h1>
+    <label>Enter Age</label>
+    <input type="number" v-model="age"/>
+    <input type="text" v-model="isHealthy"/>
+    <p>
+      Age = {{age}}
+    </p>
+    <p>
+      Is Healthy = {{isHealthy}}
+    </p>
+  
+    <p>
+      Age in 20 years = {{addAge}}
+    </p>
+    <p>
+      Is insurance needed = {{insuranceDecider}}
+    </p>
+
+    <script src="app.js"></script>
+  </div>
+</body>
+
+</html>
